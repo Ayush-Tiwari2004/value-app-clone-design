@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-div{
+    max-width: 600px;
+} */
+ .bg-orange{
+    background: #ff4500;
+ }
+.category-div{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.category-div .w-10:hover{
+    background: #f9503a !important;
+}
+/* .category-div1{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 2rem;
+    column-gap: 2rem;
+} */
+ .category-div i{
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+ }
+.section{
+    width: 100%;
+    height: 100%;
+}
+.card img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5rem;
+}
+.clone-containe{
+    height: 100%;
+    width: 100%;
+}
+.img-side{
+    /* height: 300px; */
+    /* max-width: 1200px; */
+    background: url(/assets/img/img.8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+
+    .container{
+       display: flex; 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    /* .img-section{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 8cm;
+    } */
+}
+@media (max-width:768px) {
+    .green-area{
+        max-width: 550px;
+    }
+    .green-area h2{
+        font-size: 18px;
+    }
+}
+@media (max-width:768px) {
+    .text h2{
+        font-size: 22px;
+        max-width: 400px;
+    }
+
+}
+@media (max-width:768px) {
+    .img-side{
+        max-width: 550px;
+    }
+    .textarea h2{
+        font-size: 18px;
+    }
+}
+.outer-area{
+    height: 200px;
+    width: 250px;
+    background: rgb(255, 252, 246);
+    box-shadow: 0 0 50px rgb(221, 217, 217);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin:auto;
+}
+.inner-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 150px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    gap: 2rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3rem 0;
+}
+.second-card{
+    box-shadow: 0 0 10px rgb(227, 227, 227),0 0 10px rgb(227, 227, 227),0 0 10px rgb(227, 227, 227);
+    text-align: center;
+    margin: 10px auto;
+}
+    &:hover h5{
+        color: rgb(201, 45, 45);
+       
+    }
+    
+
+.second-card img{
+    width: 17rem;
+    border: none;
+    outline: none;
+    margin-left: -12px;
+}
+.kohali-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* @media (max-width:480px) {
+
+    .container{
+       display: flex; 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .second-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+} */
+.img-side2{
+    height: 300px;
+    max-width: 1200px;
+    background: url(img.16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-card2 img{
+    width: 20rem;
+    /* margin-left: 2rem; */
+    border: none;
+    outline: none;
+    /* margin-left: -12px; */
+} 
+.footer-section{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 350px 190px 190px 190px;
+    background: transparent;
+
+}
+@media (max-width:768px) {
+    .footer-section{
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: justify;
+    }
+    .section-1{
+        margin-bottom: -3rem;
+    }
+    .section-1 h5{
+        margin-bottom: 1rem;
+        font-size: 23px;
+    }
+
+}
+.section-1 img{
+    background: rgb(255, 255, 255);
+    margin: 3rem 0 2rem 0;
+}
+.section-1 a{
+    margin-bottom: 1.5rem;
+    font-size: 17px; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: justify;
+    text-decoration: none;
+    &:hover{
+        color: rgb(37, 37, 207);
+        transition: 1s ease;
+    }
+}
