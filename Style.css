@@ -98,6 +98,24 @@
     .textarea h2{
         font-size: 18px;
     }
+    .card-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .diffrent-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .green-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 .outer-area{
     height: 200px;
@@ -152,21 +170,21 @@
     
 }
 
-/* @media (max-width:480px) {
-
-    .container{
-       display: flex; 
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-    }
-    .second-container{
+@media (max-width:576px) {
+    .menu-card{
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
-        padding: 20px;
     }
-} */
+    .second-card2{
+        margin-bottom: 2rem;
+    }
+    .button{
+        margin-top: .4rem;
+    }
+   
+}
 .img-side2{
     height: 300px;
     max-width: 1200px;
@@ -221,5 +239,14 @@
     &:hover{
         color: rgb(37, 37, 207);
         transition: 1s ease;
+    }
+}
+@media (max-width: 992px) {
+    .barmuda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
     }
 }
